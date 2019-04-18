@@ -15,7 +15,7 @@ You can initially create the a secret code for use in your application using:
 
 ```php
 $issuer = "MyAwesomeCorp";
-$accountName = "MrsSmith";
+$accountName = "Boyscha";
 $secretFactory = new SecretFactory();
 $secret = $secretFactory->create($issuer, $accountName);
 ```
